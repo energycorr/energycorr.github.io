@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   people to overcome their mental and physical problems as well as facilitates personal 
   and spiritual growth.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://energycorr.github.io "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://energycorr.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: energycorr
 github_username:  energycorr
 
