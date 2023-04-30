@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'PTSans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PT Sans'), local('PTSans-Regular'), url(https://themes.googleusercontent.com/static/fonts/ptsans/v4/yrzXiAvgeQQdopyG8QSg8Q.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'mfont';
+    src: url(/resources/font/mfont.eot);
+    src: url(/resources/font/mfont.eot?#iefix) format('embedded-opentype'),
+    url(/resources/font/mfont.woff) format('woff'),
+    url(/resources/font/mfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    overflow: hidden;
+    padding: 0 2em;
+    background: url(/resources/img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+iec-header {
+    position: static;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border-radius: 1em;
+    margin: 0 auto;
+    background-size: 100%;
+}
+iec-header img {
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    position: static;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto .5em;
+}
+
+/* menu - start*/
+#menu, #menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+#menu {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid blue;
+    background-color: dodgerblue;
+    background-image: -moz-linear-gradient(aqua, dodgerblue);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(aqua), to(dodgerblue));
+    background-image: -webkit-linear-gradient(aqua, dodgerblue);
+    background-image: -o-linear-gradient(aqua, dodgerblue);
+    background-image: -ms-linear-gradient(aqua, dodgerblue);
+    background-image: linear-gradient(aqua, dodgerblue);
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+}
+
+#menu:before, #menu:after {
+    content: "";
+    display: table;
+}
+
+#menu:after {
+    clear: both;
+}
+
+#menu {
+    zoom: 1;
+}
+
+#menu li {
+    float: left;
+    border-right: 1px solid blue;
+    -moz-box-shadow: 1px 0 0 aqua;
+    -webkit-box-shadow: 1px 0 0 aqua;
+    box-shadow: 1px 0 0 aqua;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    padding: 0.3em 1em;
+    color: black;
+    text-transform: uppercase;
+    font: bold 70% Arial, Helvetica;
+    text-decoration: none;
+}
+
+#menu li:hover > a {
+    color: #fafafa;
+}
+
+#menu li a:hover {
+    color: #fafafa;
+}
+
+/* Только для IE6 */
+#menu ul {
+    margin: 2em 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 1.35em;
+    left: 0;
+    z-index: 9999;
+    background: aqua;
+    background: -moz-linear-gradient(dodgerblue, aqua);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(dodgerblue), to(aqua));
+    background: -webkit-linear-gradient(dodgerblue, aqua);
+    background: -o-linear-gradient(dodgerblue, aqua);
+    background: -ms-linear-gradient(dodgerblue, aqua);
+    background: linear-gradient(dodgerblue, aqua);
+    -moz-box-shadow: 0 -1px rgba(255, 255, 255, .3);
+    -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, .3);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+}
+
+#menu ul ul {
+    top: 0;
+    left: 12.65em;
+    margin: 0 0 0 1em;
+    -moz-box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
+    -webkit-box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
+    box-shadow: -1px 0 0 rgba(255, 255, 255, .3);
+}
+
+#menu ul li {
+    float: none;
+    display: block;
+    border: 0;
+    _line-height: 0; /*Только для IE6*/
+    -moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    -webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+    box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+}
+
+#menu ul li:last-child {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a {
+    padding: 0.5em;
+    width: 17em;
+    text-align: left;
+    _height: 0.5em; /*Только для IE6*/
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu ul a:hover {
+    background-color: #0186ba;
+    background-image: -moz-linear-gradient(#04acec, #0186ba);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+    background-image: -webkit-linear-gradient(#04acec, #0186ba);
+    background-image: -o-linear-gradient(#04acec, #0186ba);
+    background-image: -ms-linear-gradient(#04acec, #0186ba);
+    background-image: linear-gradient(#04acec, #0186ba);
+}
+
+#menu ul li:first-child > a {
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+#menu ul li:first-child > a:after {
+    content: '';
+    position: absolute;
+    left: 2em;
+    top: -0.3em;
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.3em solid #444;
+}
+
+#menu ul ul li:first-child a:after {
+    left: -0.3em;
+    top: 50%;
+    margin-top: -0.3em;
+    border-left: 0;
+    border-bottom: 0.3em solid transparent;
+    border-top: 0.3em solid transparent;
+    border-right: 0.3em solid #3b3b3b;
+}
+
+#menu ul li:first-child a:hover:after {
+    border-bottom-color: #04acec;
+}
+
+#menu ul ul li:first-child a:hover:after {
+    border-right-color: #0299d3;
+    border-bottom-color: transparent;
+}
+
+#menu ul li:last-child > a {
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #d3d3d3;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #989797;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7c;
+}

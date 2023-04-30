@@ -5,9 +5,9 @@ body {
     background-size: cover;
 }
 
-.canvas{
+main{
     position:absolute;
-    background: url(/resources/img/logo_600.png) 50% 40% no-repeat;
+    background: url(/resources/img/index/logo_600.png) 50% 40% no-repeat;
     background-size:50%;
     top:50%;
     left:50%;
@@ -55,36 +55,28 @@ body {
     }
 }
 
-#about			{background-image:url(/resources/img/b_about.png);}
-#about:hover	{background-image:url(/resources/img/b_about_h.png);}
-#research		{background-image:url(/resources/img/b_research.png);}
-#research:hover	{background-image:url(/resources/img/b_research_h.png);}
-#work			{background-image:url(/resources/img/b_work.png);}
-#work:hover		{background-image:url(/resources/img/b_work_h.png);}
-#groups			{background-image:url(/resources/img/b_group.png);}
-#groups:hover	{background-image:url(/resources/img/b_group_h.png);}
-#masters		{background-image:url(/resources/img/b_masters.png);}
-#masters:hover	{background-image:url(/resources/img/b_masters_h.png);}
-#forum			{background-image:url(/resources/img/b_forum.png);}
-#forum:hover	{background-image:url(/resources/img/b_forum_h.png);}
-#support		{background-image:url(/resources/img/b_library.png);}
-#support:hover	{background-image:url(/resources/img/b_library_h.png);}
-#contacts		{background-image:url(/resources/img/b_contacts.png);}
-#contacts:hover	{background-image:url(/resources/img/b_contacts_h.png);}
+#about			{background-image:url(/resources/img/index/b_about.png);}
+#about:hover	{background-image:url(/resources/img/index/b_about_h.png);}
+#research		{background-image:url(/resources/img/index/b_research.png);}
+#research:hover	{background-image:url(/resources/img/index/b_research_h.png);}
+#work			{background-image:url(/resources/img/index/b_work.png);}
+#work:hover		{background-image:url(/resources/img/index/b_work_h.png);}
+#groups			{background-image:url(/resources/img/index/b_group.png);}
+#groups:hover	{background-image:url(/resources/img/index/b_group_h.png);}
+#masters		{background-image:url(/resources/img/index/b_masters.png);}
+#masters:hover	{background-image:url(/resources/img/index/b_masters_h.png);}
+#forum			{background-image:url(/resources/img/index/b_forum.png);}
+#forum:hover	{background-image:url(/resources/img/index/b_forum_h.png);}
+#support		{background-image:url(/resources/img/index/b_library.png);}
+#support:hover	{background-image:url(/resources/img/index/b_library_h.png);}
+#contacts		{background-image:url(/resources/img/index/b_contacts.png);}
+#contacts:hover	{background-image:url(/resources/img/index/b_contacts_h.png);}
 
 .left{left:0;}
 .right{right:0;}
 .up{top:0;}
 .dn{bottom:0;}
 
-/*.pan{
-    display:none;
-    position:absolute;
-    background: url(/iec/res/img/ind/block.png) no-repeat center;
-    background-size:100% 100%;
-    opacity:0.2;
-    font-size:200%;
-}*/
 .pan:hover{opacity:1;}
 
 .panh{padding:0; margin:14px 0 0; text-align: center; text-indent:0; color:#f0f;font-size:50%; font-weight:bold;text-shadow:#fcf 1px 1px 4px, #fcf -1px -1px 4px, #fcf -1px 1px 4px, #fcf 1px -1px 4px;}

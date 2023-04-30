@@ -16,7 +16,7 @@ function terraform() {
     }
 
     document.body.style.fontSize = `${em}px`;
-    const nav = document.querySelector(".canvas");
+    const nav = document.querySelector('main');
     nav.style.height = `${d}px`;
     nav.style.width = `${d}px`;
     nav.style.top = `${(h - d) / 2}px`;
@@ -33,28 +33,28 @@ function terraform() {
         hex.style.fontSize = hexFontSize;
 
         if (selector === '#about') {
-            hex.style.right = `${d / 11}px`;
+            hex.style.left = `${d / 11}px`;
             hex.style.top = `-${d / 15}px`;
         } else if (selector === '#research') {
-            hex.style.right = `-${d / 10}px`;
+            hex.style.left = `-${d / 10}px`;
             hex.style.top = `${d / 6}px`;
         } else if (selector === '#work') {
-            hex.style.right = `-${d / 10}px`;
+            hex.style.left = `-${d / 10}px`;
             hex.style.top = `${d / 2.1}px`;
         } else if (selector === '#groups') {
-            hex.style.right = `${d / 11}px`;
+            hex.style.left = `${d / 11}px`;
             hex.style.top = `${d / 1.4}px`;
         } else if (selector === '#masters') {
-            hex.style.left = `${d / 11}px`;
+            hex.style.right = `${d / 11}px`;
             hex.style.top = `-${d / 15}px`;
         } else if (selector === '#forum') {
-            hex.style.left = `-${d / 10}px`;
+            hex.style.right = `-${d / 10}px`;
             hex.style.top = `${d / 6}px`;
         } else if (selector === '#support') {
-            hex.style.left = `-${d / 10}px`;
+            hex.style.right = `-${d / 10}px`;
             hex.style.top = `${d / 2.1}px`;
         } else if (selector === '#contacts') {
-            hex.style.left = `${d / 11}px`;
+            hex.style.right = `${d / 11}px`;
             hex.style.top = `${d / 1.4}px`;
         }
     });

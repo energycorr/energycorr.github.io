@@ -1,0 +1,133 @@
+.tabs {
+    /*display: block;
+    position: relative;
+    margin: 0.2em 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .8);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 100%;
+    border-radius: 1em;
+    box-shadow: yellow 0.2em 0.2em 0.5em;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-backface-visibility: hidden;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 40px;*/
+    overflow: hidden;
+    background: rgba(255, 255, 255, .8);
+    line-height: 100%;
+    border-radius: 1em;
+    box-shadow: yellow 0.2em 0.2em 0.5em;
+    padding: 1em 0;
+    padding-inline: 1em;
+    margin-inline: 0;
+    margin-block: 0;
+}
+
+.tabs > li{
+    display: inline;
+}
+
+.contentContainer {
+    float: left;
+    margin: 0.5em 0;
+    width: 0;
+    overflow-y: auto;
+    text-align: justify;
+}
+.contentContainer.active{
+    padding: 0 1em;
+    width: calc(100% - 180px);
+    opacity: 1;
+    overflow-y: auto;
+}
+
+.contentContainer > img{
+    width: 15em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+img.left {
+    padding: 0 1em 1em 0;
+}
+
+img.right {
+    padding: 0 0 1em 1em;
+}
+
+.contentContainer>p:first-of-type{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 0;
+}
+
+.contentWrapper {
+    text-align: justify;
+}
+
+main:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    clear: both;
+    font-size: 1px;
+}
+
+.handle {
+    padding: 0;
+    float: left;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.handle:hover {
+    background-color: red;
+    opacity: .60;
+}
+
+.handle .text {
+    color: #000;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 120%;
+    white-space: nowrap;
+    text-shadow: rgba(255, 255, 255, 0.7) 1px 0, rgba(255, 255, 0, 0.7) 1px 1px, rgba(255, 255, 0, 0.7) 0 1px, rgba(255, 255, 0, 0.7) -1px 1px, rgba(255, 255, 0, 0.7) -1px 0, rgba(255, 255, 0, 0.7) -1px -1px, rgba(255, 255, 0, 0.7) 0 -1px, rgba(255, 255, 0, 0.7) 1px -1px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px, rgba(255, 255, 0, 0.7) 0 0 3px;
+    -ms-transform: rotate(-90deg); /* IE */
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+}
+
+.handle > img {
+    width: 30px;
+}
