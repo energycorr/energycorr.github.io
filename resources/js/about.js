@@ -4,7 +4,6 @@ function setupTabs() {
     const mainHeight = terraform();
     const tabsHeight = `${mainHeight*.99}px`;
     const containerHeight = `${mainHeight*.95}px`;
-    console.log(tabsHeight)
     document.querySelector('.tabs').style.height = tabsHeight;
     tabs.forEach((tab, idx) =>{
         tab.querySelector('.contentContainer').style.height = containerHeight;
@@ -22,6 +21,6 @@ function showTab(tabNumber){
     activeTab = tabNumber;
     tabs[activeTab].querySelector('.contentContainer').classList.add('active');
 }
-
+setupTabs();
 window.onload = setupTabs;
 window.onresize = setupTabs;
