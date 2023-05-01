@@ -21,6 +21,5 @@ function showTab(tabNumber){
     activeTab = tabNumber;
     tabs[activeTab].querySelector('.contentContainer').classList.add('active');
 }
-setupTabs();
-window.onload = setupTabs;
+
 window.onresize = setupTabs;

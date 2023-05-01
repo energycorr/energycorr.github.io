@@ -4,5 +4,4 @@ function terraform(){
     return mainHeight;
 }
 
-window.onload = terraform;
 window.onresize = terraform;
