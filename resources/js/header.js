@@ -5,7 +5,7 @@ class Header extends HTMLElement {
     }
 
     connectedCallback() {
-        fetch('/header.html')
+        fetch('/pages/header.html')
             .then(response => response.text())
             .then(data => {this.innerHTML = data;})
             .catch(error => console.error(error));
