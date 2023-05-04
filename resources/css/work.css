@@ -1,0 +1,48 @@
+.tabs {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.tabs > li {
+    height: 2em;
+    border-bottom: 1px solid #c7deef;
+    border-top: 1px solid #fff;
+    overflow: hidden;
+}
+
+.tabs > li:first-child {
+    border-top: none;
+}
+
+.handle {
+    text-shadow: 2px 2px 2px #00f;
+    color: #ff0;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.1em;
+    padding-left: 2em;
+    padding-top: .1em;
+    margin: 1px 0;
+    outline: none;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.handle:hover {
+    color: #1693eb;
+}
+
+.contentContainer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.contentContainer ul {
+    margin-left: 1em;
+    list-style: inside;
+}

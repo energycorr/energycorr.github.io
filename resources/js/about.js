@@ -1,5 +1,5 @@
 let activeTab = 0;
-const tabs = document.querySelectorAll('.tabs li');
+const tabs = document.querySelectorAll('.tabs>li');
 function setupTabs() {
     const mainHeight = terraform();
     const tabsHeight = `${mainHeight*.99}px`;
