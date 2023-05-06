@@ -1,0 +1,45 @@
+.work .handle {
+  text-shadow: 2px 2px 2px #00f;
+  color: #ff0;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.1em;
+  padding-left: 2em;
+  padding-top: .1em;
+  margin: 1px 0;
+  outline: none;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.work .handle:hover {
+  color: #1693eb;
+}
+
+.work .contentContainer {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.work .contentContainer ul {
+  margin-left: 1em;
+  list-style: inside;
+}
+
+.work .handle:after {
+  content: '>';
+  font-size: 1.3em;
+  color: #ff0;
+  float: right;
+  margin: -.9em .2em;
+}
+
+.work .active:after {
+  rotate: 95grad;
+  color: red;
+}

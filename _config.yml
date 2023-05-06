@@ -35,6 +35,19 @@ theme: minima
 plugins:
   - jekyll-feed
 
+feed:
+  path: /blogs/feed.atom
+
+defaults:
+  - scope:
+      path: "resources/img"
+    values:
+      image: true
+  - scope:
+      path: "resources/css"
+    values:
+      css: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

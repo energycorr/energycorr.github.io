@@ -1,0 +1,241 @@
+.masters{
+  margin-top: .5em;
+  float: left;
+  background: #fff;
+  border: 1px #605f5f;
+  border-radius: 0.3em;
+  box-shadow: 0 0 2px #999;
+  width: 8em;
+  text-align: center;
+  height: calc(100% - 1em);
+  overflow-y: auto;
+}
+.masters .header{
+  margin: .5em 0;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #00f;
+}
+
+.masters > a{
+  text-decoration: none;
+}
+
+.masters figure{
+  margin: .3em;
+  padding: .2em;
+  font-size: .8em;
+  border: solid 2px #fff;
+  border-radius: 1em;
+}
+
+.masters figure:hover{
+  background-color: #fcf8ed;
+  border: solid 2px #ffc400;
+  box-shadow: 0 0 2px #999;
+}
+
+.masters figure img{
+  border-radius: .3em;
+  height: 6em;
+}
+
+.posts{
+  position: relative;
+  width: calc(100% - 9em);
+  float: right;
+  height: calc(100% - .5em);
+  overflow-y: hidden;
+}
+
+.postsWrapper{
+  padding: 1em;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  grid-gap: 1em;
+  height: calc(100% - 5em);
+}
+
+.post{
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #ddd;
+  border-radius: 3em;
+  overflow: hidden;
+  width: 20em;
+  height: 20em;
+  text-decoration: none;
+  text-align: center;
+  font-size: 80%;
+  color: #00e;
+}
+
+.post-details .title{
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  height: 3em;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.post-details .excerpt{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 5em;
+  margin: 0;
+  padding: 0 .1em;
+}
+
+.post:hover{
+  border: double 3px #00a2f9;
+}
+
+.post > img{
+  width: 100%;
+  height: auto;
+  max-height: 8em;
+  object-fit: cover;
+
+}
+.post-meta{
+  position: absolute;
+  bottom: 1em;
+  height: 1em;
+  width: 100%;
+  color: #2a7ae2;
+}
+
+.post-author{
+  display: inline;
+  float: left;
+  vertical-align: center;
+}
+
+.post-date{
+  display: inline;
+  float: right;
+  margin-right: 1.5em;
+  vertical-align: center;
+}
+
+.post-author-ava{
+  display: inline;
+  float: left;
+  border-radius: 1em;
+  width: 2.3em;
+  height: 2.3em;
+  margin: -.5em .7em 0 1.3em;
+}
+
+.post-author-name{
+  display: inline;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.disclaimer{
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8em;
+  width: 100%;
+  color: darkred;
+  text-align: center;
+}
+
+.master{
+  display: flex;
+  flex-direction: column;
+  margin-top: .5em;
+  float: left;
+  background: #fff;
+  border: 1px #605f5f;
+  border-radius: 0.3em;
+  box-shadow: 0 0 2px #999;
+  width: 17em;
+  height: calc(100% - 1em);
+  overflow: hidden;
+  color: black;
+}
+.master .picture{
+  width: 12em;
+  padding: .5em 2.5em;
+  border-radius: 1em;
+}
+
+.master+.posts{
+  width: calc(100% - 16em);
+}
+
+.master .name{
+  font-weight: bold;
+  font-size: 140%;
+  text-align: center;
+}
+
+.master .description{
+  text-align: left;
+  padding: .5em;
+  font-size: 90%;
+}
+.master .description ul{
+  margin: 0;
+  padding-inline-start: 1em;
+}
+
+.master .contacts{
+  text-align: left;
+  font-size: 90%;
+  padding-left: .5em;
+}
+
+.master .label{
+  font-weight: bold;
+  padding-left: 2em;
+  font-size: 110%;
+  margin-block: .5em;
+}
+
+.master .back-wrapper{
+  position: relative;
+  height: 100%;
+}
+.master .back{
+  position: absolute;
+  border: solid 1px blue;
+  margin: 0 3.5em;
+  padding: .2em .5em;
+  text-decoration: none;
+  border-radius: .5em;
+  background-image: linear-gradient(aqua, dodgerblue);
+  font: bold 70% Arial, Helvetica;
+  bottom: 1em;
+}
+
+/*
+.master{
+  position: relative;
+  width: 100%;
+  float: right;
+  height: calc(100% - 2.5em);
+  overflow-y: hidden;
+}
+
+.master>.meta{
+  flex-basis: 50px;
+}
+
+.master>.blog{
+  display: inline-block;
+  overflow-y:auto;
+  padding-bottom: 3em;
+}
+
+.master .picture{
+  width: 5em;
+}
+*/

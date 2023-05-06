@@ -1,0 +1,43 @@
+serg_ey:
+  name: "Serg Ey"
+  role: "IEC Founder"
+  small_avatar: "/assets/img/masters/oroboro_30x29.jpg"
+  avatar: "/assets/img/masters/oroboro_100x96.jpg"
+  picture: "/assets/img/masters/serg_640x640.jpg"
+  bio: "<ul><li>мастер космоэнергетики Института энергетической коррекции,</li><li>персональный тренер,</li><li>бизнес-тренер.</li></ul>"
+  links:
+    email: "energycorr[at]gmail.com"
+green:
+  name: "Грин"
+  role: "IEC Founder"
+  small_avatar: "/assets/img/masters/green_30x30.jpg"
+  avatar: "/assets/img/masters/green_100x100.jpg"
+  picture: "/assets/img/masters/green_640x640.jpg"
+  bio: "<ul><li>мастер 5 ступени коррекции кармы ( сеансы, посвящение, обучение),</li><li>психолог,</li><li>кризисный психолог,</li><li>гипнотерапевт ( психосоматика, зависимости),</li><li>психотерапевт ( метод RPT, NLP)</li></ul>"
+  links:
+    email: "energycorr[at]gmail.com"
+    phone: "(+38 0 66) 726-71-64"
+helga:
+  name: "Хельга"
+  role: "IEC Founder"
+  small_avatar: "/assets/img/masters/helga_30x30.jpg"
+  avatar: "/assets/img/masters/helga_100x100.jpg"
+  picture: "/assets/img/masters/helga_640x640.jpg"
+  bio: "Мастер 4 ступени кармокоррекции; звукотерапевт, виброакустический массаж поющими чашами и высокочастотным инструментом Шум Океана; таролог, работа с подсознанием и информационным полем человека; писатель, автор романа 'Лето с ароматом чабреца' и рукописи 'Падение вверх'."
+  links:
+    email: "energycorr[at]gmail.com"
+    phone: "+49 176 704-704-94"
+    facebook: "helga.guynulina"
+    instagram: "@helga.hainulina"
+alexandra:
+  name: "Александра"
+  role: "IEC Master"
+  small_avatar: "/assets/img/masters/alexandra_30x30.jpg"
+  avatar: "/assets/img/masters/alexandra_100x100.jpg"
+  picture: "/assets/img/masters/alexandra_640x640.jpg"
+  bio: "<ul><li>мастер 4й ступени, наставник в сис-ме Энергохилерства и Кармокоррекции,</li><li>таролог,</li><li>регрессолог,</li><li>консультант в системе 'Матрица Предназначения',</li><li>ритуалы и рунические чистки.</li></ul>"
+  links:
+    email: "energycorr[at]gmail.com"
+    facebook: "xxxxxxx"
+    instagram: "xxxxxxx"
+    youtube: "channel/xxxxxxx"
