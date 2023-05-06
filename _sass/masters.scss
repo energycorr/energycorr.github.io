@@ -168,7 +168,7 @@
 }
 
 .master+.posts{
-  width: calc(100% - 16em);
+  width: calc(100% - 18em);
 }
 
 .master .name{
@@ -215,27 +215,3 @@
   font: bold 70% Arial, Helvetica;
   bottom: 1em;
 }
-
-/*
-.master{
-  position: relative;
-  width: 100%;
-  float: right;
-  height: calc(100% - 2.5em);
-  overflow-y: hidden;
-}
-
-.master>.meta{
-  flex-basis: 50px;
-}
-
-.master>.blog{
-  display: inline-block;
-  overflow-y:auto;
-  padding-bottom: 3em;
-}
-
-.master .picture{
-  width: 5em;
-}
-*/

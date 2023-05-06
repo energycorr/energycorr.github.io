@@ -3,8 +3,7 @@ layout: post
 title:  "Понять, простить и отпустить!. Отпустить."
 excerpt: "Что несут за собой всякие модные ныне словечки типа «простить», «принять», «отпустить»: имеют ли они
 конкретный смысл или просто используются, чтобы запудривать мозги?"
-image: "https://user-images.githubusercontent.com/46792249/151173908-5358883e-7e44-41d3-bc5c-c7cea7086795.png"
-audioId: 3467260
+image: "/resources/serg_ey/ponyat-prostit.png"
 category: general
 tags: ["отпустить"]
 author: serg_ey

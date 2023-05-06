@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "О нашем институте"
-excerpt: "Идея создать институт, как организацию, которая объединит мастеров различных направлений и сфер в одну организацию..."
-image: "/resources/serg_ey/iek.png"
+title:  "Кармическая коррекция 2. Посвящение"
+excerpt: "Краткая история школы кармической коррекции"
+image: "/resources/green/energohillerstvo.png"
+audioId: 3467260
 category: general
-tags: ["ИЭК"]
-author: serg_ey
+tags: ["кармокоррекция"]
+author: green
 ---
 
 # О нашем институте
