@@ -34,17 +34,20 @@ github_username:  energycorr
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-email-protect
 
 feed:
   path: /blogs/feed.atom
 
+plugins_dir: ./_plugins
+
 defaults:
   - scope:
-      path: "resources/img"
+      path: "assets/img"
     values:
       image: true
   - scope:
-      path: "resources/css"
+      path: "assets/css"
     values:
       css: true
 

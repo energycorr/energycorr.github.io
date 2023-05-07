@@ -27,8 +27,10 @@ helga:
   links:
     email: "energycorr[at]gmail.com"
     phone: "+49 176 704-704-94"
-    facebook: "helga.guynulina"
-    instagram: "@helga.hainulina"
+    facebook_nik: "helga.guynulina"
+    facebook_link: "https://www.facebook.com/helga.guynulina"
+    instagram_nik: "@helga.hainulina"
+    instagram_link: "https://instagram.com/helga.hainulina?igshid=ZGUzMzM3NWJiOQ=="
 alexandra:
   name: "Александра"
   role: "IEC Master"
@@ -38,6 +40,8 @@ alexandra:
   bio: "<ul><li>мастер 4й ступени, наставник в сис-ме Энергохилерства и Кармокоррекции,</li><li>таролог,</li><li>регрессолог,</li><li>консультант в системе 'Матрица Предназначения',</li><li>ритуалы и рунические чистки.</li></ul>"
   links:
     email: "energycorr[at]gmail.com"
-    facebook: "xxxxxxx"
-    instagram: "xxxxxxx"
+    facebook_nik: "xxxxxxx"
+    facebook_link: "xxxxxxx"
+    instagram_nik: "xxxxxxx"
+    instagram_link: "xxxxxxx"
     youtube: "channel/xxxxxxx"

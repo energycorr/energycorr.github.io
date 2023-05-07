@@ -1,0 +1,90 @@
+.post-nav{
+  margin-top: .5em;
+  float: left;
+  background: #fff;
+  border: 1px #605f5f;
+  border-radius: 0.3em;
+  box-shadow: 0 0 2px #999;
+  width: 8em;
+  text-align: center;
+  height: calc(100% - 1em);
+  overflow-y: auto;
+}
+.blogpost{
+  position: relative;
+  width: calc(100% - 8em);
+  float: right;
+  height: calc(100% - .5em);
+  overflow-y: hidden;
+}
+.blogpost img{
+  display: inline-block;
+  float: left;
+  padding: .5em;
+}
+.wrapper{
+  overflow-y: auto;
+  height: calc(100% - 3em);
+  padding: 0 1em;
+}
+
+.blogpost> .wrapper >h1{
+  text-align: left;
+  line-height: 100%;
+  padding: 0 0 1em 3em;
+}
+
+.post-nav figure{
+  margin: .3em;
+  padding: .2em;
+  font-size: .8em;
+  border: solid 2px #fff;
+  border-radius: 1em;
+}
+
+.post-nav figure:hover{
+  background-color: #fcf8ed;
+  border: solid 2px #ffc400;
+  box-shadow: 0 0 2px #999;
+}
+
+.post-nav figure img{
+  border-radius: .3em;
+  height: 6em;
+}
+.post-nav>a{
+  text-decoration: none;
+}
+
+.post-nav .button{
+  display: inline-block;
+  width: 6.5em;
+  border: solid 1px blue;
+  margin: 0.5em 0;
+  padding: .2em;
+  text-decoration: none;
+  border-radius: .5em;
+  background-image: linear-gradient(aqua, dodgerblue);
+  font: bold 70% Arial, Helvetica;
+}
+
+.contacts-panel{
+  margin: 1em .2em;
+  text-align: left;
+  font-size: 70%;
+}
+
+.contacts-panel .label{
+  text-decoration: none;
+}
+.label+a{
+  padding-left: .3em;
+}
+
+.nav-panel{
+  position: absolute;
+  width: 6em;
+  padding: 0 1em;
+  border-top: 2px double #7c7c7c;
+  bottom: 2em;
+}
