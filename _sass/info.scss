@@ -1,0 +1,32 @@
+p.header{
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.faq .handle{
+  font-weight: bold;
+}
+
+.slovar dd{
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.contacts img{
+  width: 20em;
+  padding: 3em;
+}
+
+.contacts div{
+  width: 20em;
+  padding: 3em;
+}
