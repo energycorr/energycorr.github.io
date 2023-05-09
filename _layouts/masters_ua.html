@@ -1,0 +1,49 @@
+---
+layout: default_ua
+---
+{% if page.author %}
+{% include master_ua.html %}
+{% else %}
+{% include masters_ua.html %}
+{% endif %}
+
+<div class="posts">
+    <div class="postsWrapper">
+        {% for post in site.posts %}
+        {% if page.author == nil or page.author == post.author %}
+        {% assign author = site.data.authors[post.author] %}
+        <a class="post" href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ optimize }}{{ post.image }}" alt="{{ post.title }}" title="{{ post.title }}"
+                 class="post-image"/>
+
+            <div class="post-details">
+                <div class="title">{{ post.title }}</div>
+                <p class="excerpt">{{ post.excerpt }}</p>
+            </div>
+
+            <div class="post-meta">
+                <div class="post-meta-wrapper">
+                    <div class="post-author">
+                        <img
+                                src="{{ site.baseurl }}{{ author.small_avatar }}"
+                                alt="{{ author.ua.name }}'s Profile Picture"
+                                title="{{ author.ua.name }}'s Profile Picture"
+                                class="post-author-ava"
+                        />
+
+                        <span class="post-author-name">{{ author.ua.name }}</span>
+                    </div>
+
+                    <span class="post-date">{{ post.date | date:"%e-%m-%Y" }}</span>
+                </div>
+            </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="disclaimer">
+        Усі матеріали на цих сторінках є авторськими. Позиція адміністрації сайту не обов'язково співпадає з думкою
+        майстрів. <b>Цитування, копіювання та розміщення цих матеріалів можливе виключно з вказанням автора матеріалу та
+        з інтерактивним посиланням на матеріал автора на нашому сайті.</b>
+    </div>
+</div>

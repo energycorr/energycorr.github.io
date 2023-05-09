@@ -83,3 +83,19 @@ main{
 .cont{position:absolute; display:block; overflow:hidden;width:80%;margin:0.2em 1em;}
 .cont p{margin:0; color:#00f; text-align: left; font-size:.4em; padding:0 0 0 3em;text-indent:-3em; text-overflow:clip;}
 .cont li{margin:0; color:#00f; text-align: left; font-size:.4em; padding:0 0 0 3em;text-indent:-3em; text-overflow:clip;}
+
+.language-switch{
+    position: absolute;
+    right: -5em;
+}
+
+.language-switch img{
+    width: 3em;
+    border-radius: 1em;
+    box-shadow: #3b3b3b .2em .4em 1em;
+    opacity: .5;
+}
+
+.language-switch img.active{
+    opacity: 1;
+}

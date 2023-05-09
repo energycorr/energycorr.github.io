@@ -3,6 +3,7 @@ layout: post
 title:  "Кармическая коррекция 2. Посвящение"
 excerpt: "Краткая история школы кармической коррекции"
 image: "/resources/green/energohillerstvo.png"
+lang: "ru"
 audioId: 3467260
 category: general
 tags: ["кармокоррекция"]

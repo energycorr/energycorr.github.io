@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+{% assign prev = nil %}
+{% assign next = nil %}
+{% assign isCurrentFound = false %}
+{% assign posts = site.posts | sort: "date" %}
+{% for _post in posts %}
+    {% if _post.author == page.author %}
+        {% if isCurrentFound == true %}
+            {% assign next = _post.url %}
+            {% break %}
+        {% else %}
+            {% if _post.url == page.url %}
+                {% assign isCurrentFound = true %}
+            {% else %}
+                {% assign prev = _post.url %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+<div class="post-nav">
+    <a href="/pages/ua/masters/{{page.author}}">
+        <figure title="клікніть, щоб перейти на сторінку майстра" >
+            <img src="{{ author.avatar }}" alt="{{author.ua.name}}">
+            <figcaption>{{author.name}}</figcaption>
+        </figure>
+    </a>
+    <div class="contacts-panel">
+        {% if author.links.email %}
+            <div class="label">Email:</div>
+            <a href="mailto:{{ author.links.email | replace: "[at]", "@" | encode_email }}">{{author.links.email}}</a>
+        {% endif %}
+        {% if author.links.phone %}
+        <div class="contacts">Телефон: {{author.links.phone}}</div>
+        {% endif %}
+        {% if author.links.facebook_nik %}
+        <div class="contacts">Facebook: <a href="{{ author.links.facebook_link }}">{{author.links.facebook_nik}}</a></div>
+        {% endif %}
+        {% if author.links.instagram_nik %}
+        <div class="contacts">Instagram: <a href="{{ author.links.instagram_link }}">{{author.links.instagram_nik}}</a></div>
+        {% endif %}
+        {% if author.links.youtube %}
+        <div class="contacts">Youtube: <a href="{{ author.links.youtube }}">{{author.links.youtube}}</a></div>
+        {% endif %}
+    </div>
+    <div class="nav-panel">
+        <a href="{{next}}" class="button {% if next == nil %}disabled{% endif %}">Наступний пост</a>
+        <a href="{{prev}}" class="button {% if prev == nil %}disabled{% endif %}">Попередній пост</a>
+        <a href="/pages/ua/masters/{{page.author}}" class="button">Сторінка майстра</a>
+        <a href="/pages/ua/masters" class="button">Блоги майстрів</a>
+    </div>
+</div>
+<div class="blogpost">
+    <div class="wrapper">
+        {{ content }}
+    </div>
+    <div class="disclaimer">
+        Усі матеріали на цих сторінках є авторськими. Позиція адміністрації сайту не обов'язково співпадає з думкою
+        майстрів. <b>Цитування, копіювання та розміщення цих матеріалів можливе виключно з вказанням автора матеріалу та
+        з інтерактивним посиланням на матеріал автора на нашому сайті.</b>
+    </div>
+</div>
