@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_ru
 title:  "Обучение психологии и психотерапии"
 excerpt: "Работа с психотравмами и травматическим опытом"
 image: https://ic.pics.livejournal.com/shichengaru/82230564/2824999/2824999_800.jpg

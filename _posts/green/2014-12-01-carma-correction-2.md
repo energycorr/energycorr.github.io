@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_ru
 title:  "Кармическая коррекция. Посвящение"
 excerpt: "Краткая история школы кармической коррекции"
 image: "/resources/green/energohillerstvo.png"
